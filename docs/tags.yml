@@ -1,4 +1,4 @@
 explanation:
-  label: 'Explanation'
-  permalink: '/explanations'
-  description: 'Explanation is discussion that clarifies and illuminates a particular topic'
+  label: "Explanation"
+  permalink: "/explanations"
+  description: "Explanation is discussion that clarifies and illuminates a particular topic"
