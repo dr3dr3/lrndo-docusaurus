@@ -22,13 +22,12 @@ jobs:
     with: 
       feature: ${{ github.event.head_commit.message }}
       target-ref: ${{ github.sha }}
-      soln-group: ${{ vars.SOLN_GROUP || 'missing' }}
-      site-url: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
-      deploy-to: ${{ vars.DEPLOY_CI || 'GITHUB-PAGES' }}
-      check-links: ${{ vars.CHECK_LINKS || 'false' }}
-      repo-stage: ${{ vars.REPO_STAGE || 'missing' }}
-      repo-prod: ${{ vars.REPO_PROD || 'missing' }}
-      repo-gitops: ${{ vars.REPO_GITOPS || 'missing' }}
+      soln-group: ${{ vars.SOLN_GROUP }}
+      site-url: ${{ vars.SITE_URL }}
+      check-links: ${{ vars.CHECK_LINKS }}
+      repo-stage: ${{ vars.REPO_STAGE }}
+      repo-prod: ${{ vars.REPO_PROD }}
+      repo-gitops: ${{ vars.REPO_GITOPS }}
     permissions:
       contents: write
       pages: write
