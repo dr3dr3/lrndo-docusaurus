@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 tags:
-  - explanation
+  - Explanation
 ---
 
 # Diátaxis
