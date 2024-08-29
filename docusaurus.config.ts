@@ -59,7 +59,7 @@ const config: Config = {
       title: 'DOCS',
       logo: {
         alt: 'Logo',
-        src: 'lrndo_banne_600x150.png',
+        src: 'lrndo_banner_600x150.png',
       },
       items: [
         {
