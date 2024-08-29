@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Doco Site',
   tagline: 'Template repo for Docusaurus',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicon.ico',
 
   // Set the production url of your site here
   url: 'https://docs.lrndo.com',
@@ -59,7 +59,7 @@ const config: Config = {
       title: 'DOCS',
       logo: {
         alt: 'Logo',
-        src: 'lrndo_logo_banner.png',
+        src: 'lrndo_banne_600x150.png',
       },
       items: [
         {
