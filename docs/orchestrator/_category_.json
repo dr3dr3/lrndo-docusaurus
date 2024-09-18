@@ -1,0 +1,8 @@
+{
+  "label": "IDP Orchestrator",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Information on the Orchestrator aspects of the Internal Developer Platform"
+  }
+}

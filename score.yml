@@ -1,0 +1,11 @@
+apiVersion: score.dev/v1b1
+
+metadata:
+  name: lrndo-docusaurus
+
+resources:
+  staticSiteHosting:
+    type: static-site-hosting
+  subDomain:
+    type: dns-sub-domain
+    domain: lrndo.com
